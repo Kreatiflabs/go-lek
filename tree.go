@@ -126,14 +126,15 @@ func (n *node) findRoute(path string, params func(key, value string)) (http.Hand
 
 	// Fast path for static children using indices
 	for _, child := range n.children {
-		if child.nType == ntStatic {
+		switch child.nType {
+		case ntStatic:
 			if strings.HasPrefix(path, child.prefix) {
 				rem := path[len(child.prefix):]
 				if handler, found := child.findRoute(rem, params); found {
 					return handler, true
 				}
 			}
-		} else if child.nType == ntParam {
+		case ntParam:
 			// Parameter matching
 			end := strings.IndexByte(path, '/')
 			if end == -1 {
@@ -146,7 +147,7 @@ func (n *node) findRoute(path string, params func(key, value string)) (http.Hand
 				params(child.paramName, paramValue)
 				return handler, true
 			}
-		} else if child.nType == ntCatchAll {
+		case ntCatchAll:
 			// Catch-all matching
 			params("*", path) // Standardize catch-all param name, or let it be empty
 			if child.handler != nil {
