@@ -3,6 +3,7 @@
 **Go-Lek** (Jawa: *golek* = mencari) — A modern, type-safe Go HTTP framework.
 
 [![Go](https://img.shields.io/badge/Go-1.22+-00ADD8?logo=go)](https://go.dev)
+[![CI](https://github.com/Kreatiflabs/go-lek/actions/workflows/ci.yml/badge.svg)](https://github.com/Kreatiflabs/go-lek/actions)
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen)]()
 [![License](https://img.shields.io/badge/license-MIT-blue)]()
 
