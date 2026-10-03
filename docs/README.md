@@ -1,6 +1,10 @@
-# 🔍 Go-Lek Documentation
+<p align="center">
+  <img src="logo.jpg" alt="Go-Lek Logo" width="220">
+</p>
 
-> **Go-Lek** (Jawa: *golek* = mencari) — A modern, type-safe Go HTTP framework. Built for high-speed REST APIs and developer happiness.
+<p align="center">
+  <strong>Go-Lek</strong> (Jawa: <em>golek</em> = mencari) — A modern, type-safe Go HTTP framework.
+</p>
 
 [![Go](https://img.shields.io/badge/Go-1.22+-00ADD8?logo=go)](https://go.dev)
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen)]()
