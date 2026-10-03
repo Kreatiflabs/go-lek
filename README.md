@@ -1,11 +1,20 @@
-# 🔍 Go-Lek
+<p align="center">
+  <img src="logo.jpg" alt="Go-Lek Logo" width="200">
+</p>
 
-**Go-Lek** (Jawa: *golek* = mencari) — A modern, type-safe Go HTTP framework.
+<h1 align="center">Go-Lek</h1>
+
+<p align="center">
+  <strong>Go-Lek</strong> (Jawa: <em>golek</em> = mencari) — A modern, type-safe Go HTTP framework.
+</p>
+<p align="center">
 
 [![Go](https://img.shields.io/badge/Go-1.22+-00ADD8?logo=go)](https://go.dev)
 [![CI](https://github.com/Kreatiflabs/go-lek/actions/workflows/ci.yml/badge.svg)](https://github.com/Kreatiflabs/go-lek/actions)
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen)]()
 [![License](https://img.shields.io/badge/license-MIT-blue)]()
+
+</p>
 
 > **Better than Chi.** Type-safe handlers, auto-binding, auto-validation, OpenAPI generation — all with zero dependencies.
 
