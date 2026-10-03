@@ -11,7 +11,7 @@
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen)]()
 [![License](https://img.shields.io/badge/license-MIT-blue)]()
 
-> **Better than Chi.** Type-safe handlers, auto-binding, auto-validation, OpenAPI generation — all with zero dependencies.
+> Type-safe handlers, auto-binding, auto-validation, OpenAPI generation — all with zero dependencies.
 
 ## ✨ Features
 
